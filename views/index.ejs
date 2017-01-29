@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>HushTime</title>
+        <link rel="stylesheet" href="css/style.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script type="text/javascript" src="javascripts/index.js"></script>
+    </head>
+    
+<body>   
+   <div class="whiteout" id="whiteout"></div>
+   <input type="text" id="auth" class="input" autofocus="true" name="fname"  placeholder"Enter passcode">
+  
+    <div class="menu">
+            <div class="back"><i class="fa fa-chevron-left"></i> <img id="headerImage" draggable="false"/></div>
+            <div class="name" id="usernameTop"></div>
+        </div>
+    <div id='startlist' class="chat">
+    <ol>
+    </ol>
+    </div>
+    <input id='usertypebox' class="textarea" type="text" placeholder="Type here!"/>
+</body>

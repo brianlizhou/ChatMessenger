@@ -1,0 +1,3 @@
+heroku create brianlindachat
+heroku ps:scale web==1
+heroku logs

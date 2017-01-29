@@ -1,0 +1,29 @@
+{
+  "name": "chatroom",
+  "version": "1.0.0",
+  "description": "Simple chatroom to practice socketing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chatroom",
+    "socket"
+  ],
+  "author": "Brian Zhou",
+  "license": "MIT",
+  "dependencies": {
+    "connect-redis": "^3.2.0",
+    "ejs": "~1.0.0",
+    "express": "^4.14.0",
+    "express-session": "^1.15.0",
+    "path": "^0.12.7",
+    "redis": "^2.6.5",
+    "socket.io": "^1.7.2",
+    "url": "^0.11.0"
+  },
+  "engines": {
+    "node": "6.9.4"
+  }
+}
