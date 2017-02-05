@@ -1,4 +1,4 @@
 heroku-node
 ===========
 
-Code for the tutorial by @sevilayha: Deploying Node Apps to Heroku
+Simple chat messenger application using web sockets
